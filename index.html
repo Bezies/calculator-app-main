@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <!-- JS  -->
+  <script src='app.js' defer></script>
+
+
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+
+<body>
+
+
+  <main class="theme1">
+
+    <h1 class="sr-only">CALCULATOR APP</h1>
+
+    <div class="calculator">
+
+      <div class="calculator-head">
+
+        <p>calc</p>
+
+        
+
+        <div class="toggle">
+
+          <span>THEME</span>
+          <!-- TOGGLE 1-2-3 -->
+          <div class="tri-state-toggle">
+            <label for="one" id="label-one">1</label><input type="radio" name="one" id="one" class="button" checked>
+            <label for="two" id="label-two">2</label><input type="radio" name="two" id="two" class="button">
+            <label for="three" id="label-three">3</label><input type="radio" name="three" id="three" class="button">
+          </div>
+
+        </div>
+        
+      </div>
+
+      <form action="">
+
+        <div class="result">
+
+          <span id="screen-result"></span>
+
+        </div>
+
+
+        <div class="keys-box">
+
+
+          <div class="keys keys-numbers">7</div>
+          <div class="keys keys-numbers">8</div>
+          <div class="keys keys-numbers">9</div>
+          <div id="delete">DEL</div>
+          <div class="keys keys-numbers">4</div>
+          <div class="keys keys-numbers">5</div>
+          <div class="keys keys-numbers">6</div>
+          <div class="keys keys-sign">+</span></div>
+          <div class="keys keys-numbers">1</div>
+          <div class="keys keys-numbers">2</span></div>
+          <div class="keys keys-numbers">3</span></div>
+          <div class="keys keys-sign">-</div>
+          <div class="keys keys-sign" id="point">.</div>
+          <div class="keys keys-numbers">0</div>
+          <div class="keys keys-sign">/</div>
+          <div class="keys keys-sign">x</div>
+          <div class="keys" id="reset">RESET</div>
+          <div id="egal">=</div>
+
+        </div>
+
+      </form>
+
+
+    </div>
+
+
+
+
+  </main>
+
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/bezies">Quentin Bessiere</a>.
+  </footer>
+  </div>
+</body>
+
+</html>
